@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cart Checkout</title>
+    <style>
+        .topnav {
+            background-color: silver;
+            height: 100px;
+            display: flex;
+            text-decoration: none;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 15px;
+            height: 1000px;
+        }
+
+        .border {
+            border: 2px solid black;
+            border-radius: 2px;
+        }
+
+        .column1 {
+            flex: 80%;
+        }
+
+        .column2 {
+            flex: 20%;
+        }
+
+        .column1 .column2 {
+            padding: 0 20px;
+        }
+
+        .cart {
+            margin-right: 15px;
+            display: flex;
+        }
+
+        .col-1 {
+            flex: 40%;
+        }
+
+        .col-2 {
+            flex: 30%;
+        }
+
+        .col-3 {
+            flex: 30%;
+        }
+
+        h4.thead {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+        }
+
+        p.subtot {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            text-align: right;
+            margin-right: 15px;
+        }
+
+        .summary {
+            background-color: silver;
+            padding: 0 20px;
+            border-radius: 2px;
+            padding-bottom: 10px;
+            display: block;
+        }
+
+        span.price {
+            float: right;
+        }
+
+        .checkout {
+            background-color: blue;
+            color: white;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+        .footer {
+            display: flex;
+            height: 75px;
+        }
+
+        .subs {
+            display: flex;
+            background-color: rgb(24, 24, 24);
+            color: white;
+            border-radius: 0;
+            border: 1px black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="border" style="border-bottom: none">
+        <div class="topnav">
+            <div class="column1">
+                <img src="logoweb.png" alt="Site Name" width="20" height="20" />
+                <a href="#">Category 1</a>| <a href="#">Category 2</a>|
+                <a href="#">Category 3</a>
+            </div>
+            <div class="column2">
+                <i class="fa fa-shopping-cart"></i>
+                <a href="#">Cart (1)</a>
+            </div>
+        </div>
+    </div>
+    <div class="border">
+        <div class="content">
+            <div class="column1">
+                <h2>Your Cart</h2>
+                <div class="cart">
+                    <div class="col-1">
+                        <h4 class="thead">Item</h4>
+                        <img src="#" alt="Barang1" />
+                        <label>T-Shirt</label>
+                        <label for="size">Size</label>
+                        <select id="size" name="size">
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                            <option value="xlarge">XL</option>
+                        </select>
+                        <br />
+                        <br />
+                    </div>
+                    <div class="col-2">
+                        <h4 class="thead">Price</h4>
+                        <p><b>$20.00</b></p>
+                    </div>
+                    <div class="col-3">
+                        <h4 class="thead">Quantity</h4>
+                        <select id="jumlah" name="jumlah">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <p class="subtot">Subtotal: <b>$20.00</b></p>
+            </div>
+            <div class="column2">
+                <div class="summary">
+                    <h4>Summary (1 item)</h4>
+                    <p>Subtotal<span class="price">$20.00</span></p>
+                    <p>Shipping<span class="price">-</span></p>
+                    <p>Est. Taxes<span class="price">-</span></p>
+                    <hr />
+                    <p>Total<span class="price" style="color: black">$20.00</span></p>
+                    <button class="checkout">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border" style="border-top: none">
+        <div class="footer">
+            <div class="column1">
+                <a>Site Name</a>
+                <a href="#">Category X </a>| <a href="#">Category Y </a>|
+                <a href="#">Category Z </a>|
+            </div>
+            <div class="column2">
+                <label style="font-size: x-small">Stay in Touch! Join our Newsletter</label>
+                <nav style="display: inline-flex">
+                    <input type="email" placeholder="Enter Email" style="width: 100px" />
+                    <button type="submit" class="subs">Subscribe</button>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

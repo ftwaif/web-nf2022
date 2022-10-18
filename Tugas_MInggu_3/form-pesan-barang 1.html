@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="padding-top:2%;display:flex;justify-content:center;">
+    <nav style=" text-align: center; width: 100%; border: 1px solid black; background-color:#43f191;">
+        <ul style="list-style-type: none; display: flex; justify-content: space-between;">
+        <li>
+            <p style="font-size: 20px; margin: -1%;color:#f3e7e7;">
+            <a href=""> Home</a></p>
+        </li>
+        <li>
+            <p style="font-size: 20px; margin: -1%;">
+                <a href="">Generate Link</a>
+        </li>
+        <li>
+            <p style="font-size: 20px; margin: -1%;">
+                <a href="">Transaction History</a>
+        </li>
+        <li>
+            <p style="font-size: 20px; margin: -1%;">
+                <a href="">Policy</a>
+        </li>
+        <li>
+            <p style="font-size: 20px; margin: -1%;padding-right:50px;">
+                <a href="">Logout</a>
+        </li>
+        </ul>
+    </nav>
+    </div>
+    <div style="display: flex;padding-top;40px;padding-left:10%">
+    <table style="width:30%; align-items: base;height:fit-content; justify-content: end;">
+        <tr>
+            <td>     
+        <img style="width: 70%;" src="foto.png.png" alt="">
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <button><label for="file">Upload gambar</label></button>
+                <input style="visibility:hidden;"type="file" id="file" name="file">
+            </td>
+        </tr>
+       
+        <table>
+            <tr>
+                <td>
+                    <label for="">Title Here</label>
+                </td>
+                <td><input type="text" id="title" style="width: 100%;"></td>
+            </tr>
+            <tr>
+            <td><label for="">Description</label></td>\
+            <td><textarea cols="30" rows="3" style="width: 100%">
+            </textarea></td>
+            </tr>
+            <tr>
+                <td><label>Accounnt Number:</label></td>
+                <td><input type="text" id="Acconnt" style="width:100%;"></td>
+            </tr>
+            <tr>
+                <td><label>Bank:</label></td>
+                <td><select name="" id="">
+                    <option>BNI</option>
+                    <option>BSI</option>
+                    <option>BCA</option>>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Bank Holder:</label></td>
+                <td><input type="text" id="name" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td style="display: flex;"><label>Transacction</label></td>
+                <td>
+                    <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    </select>
+                    <br>
+                    <p>*if the transaction for 3 person, choose 3 from the drop list</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            <td>
+                <input type="checkbox" id="send to mobile">
+                <label>Send to email</label>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Send to mobile phone:</label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Send to email</label>
+                </td>
+                <td>
+                    <input type="email" id="Phone" style="width: 100%;">
+                </td>
+            </tr>
+            <tr >
+                <td></td>
+                <td></td>
+                <td style="padding-top: 30px;" ><button style="background:#5C7AEA; color: blanchedalmond; justify-self: center;" > Generate Nabr Link </button></td>
+            </tr>
+        </table>
+    </table>
+    </div>
+</body>
+</html>

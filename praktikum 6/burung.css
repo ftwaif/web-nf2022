@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(199, 53, 53);
+}
+#header {
+  background-color: rgb(79, 117, 89);
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+  color: rgb(63, 63, 156);
+}
+blockquote {
+  text-align: center;
+  border: dotted;
+  border-radius: 25px;
+  border-color: rgb(96, 16, 99);
+  background-color: rgb(231, 231, 23);
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  margin: auto 5px;
+}
+.gambar {
+  text-align: center;
+}
+.b {
+  color: rgb(32, 32, 131);
+  font-size: 62px;
+}
+.koleksi {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 88px;
+  margin-right: auto;
+}
+h2,
+h3 {
+  text-align: center;
+}
+#beternak {
+  border: solid;
+}
+.eCommerce {
+  text-align: right;
+}
+.store {
+  justify-content: right;
+  display: flex;
+}

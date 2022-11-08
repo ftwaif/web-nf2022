@@ -1,0 +1,13 @@
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.bg-thead {
+  background-color: #b8daff;
+}
+
+.bg-tbody {
+  background-color: #ebf5fb;
+}

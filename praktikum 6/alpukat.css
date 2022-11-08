@@ -1,0 +1,43 @@
+body {
+    background-color:  lightblue;
+    font-family: 'Lucinda Sans', Verdana, sans-serif; 
+}
+
+h1{
+    text-align: center;
+    color: rgb(29, 158, 50);
+}
+
+p {
+    text-align: justify;
+    width: fit-content;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    background-color: antiquewhite;
+}
+.foto img {
+    width: 23%;
+}
+
+.cod {
+    margin: auto;
+    width: 80%;
+}
+
+.cod p {
+    background-color: aqua;
+    border: spx darkmagenta;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(6, 6, 46);
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,34 @@
+.header {
+    background-color: blueviolet;
+}
+.main {
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+}
+.footer {
+    background-color: rgb(35, 214, 80);
+    height: 100px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.aside {
+    background-color: rgb(188, 48, 174);
+    width: 20%;
+}
+.article {
+    background-color: deepskyblue;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.bingkai {
+    display: flex;
+    justify-content: center;
+}
+.h3 {
+    text-align: center;
+}

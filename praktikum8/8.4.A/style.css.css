@@ -1,0 +1,60 @@
+*{
+    font-family: cursive;
+    color: white;
+}
+body{
+    background-color: rgb(205, 250, 43);
+
+}
+h3{
+    text-align: center;
+    padding: 1rem 1.5rem;
+}
+.header{
+    background-color: rgb(100, 64, 185);
+    height: 100px;
+    margin: 1em;
+}
+
+.main{
+    height: 450px;
+    display: flex;
+}
+
+.footer{
+    background-color: #2b168a;
+    height: 100px;
+    margin: 1em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aside{
+    background-color: #E0B0ff;
+    width: 20%;
+    margin: 1em;
+}
+
+.article{
+    background-color: #E8ADAA;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 1em;
+}
+
+.bingkai img{
+    width: 200px;
+    margin: 1em;
+}
+
+.bingkai{
+    display: flex;
+    justify-content: center;
+}

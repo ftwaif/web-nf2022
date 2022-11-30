@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+    <script>
+        function convers()
+        let nilaiAwal = document.getElementById("valutal").value;
+        let hitungKurs = document.getElementById("nilaiTukar").value;
+        let hasil;
+        
+        if (hitungKurs == "toRp") {hasil = nilaiAwal * 14650;}
+        else if (hitungKurs == "toDollar") {hasil = nilaiAwal / 14650;}
+        else {
+            hasil = 0;
+        }
+    </script>
+</head> 
+<body>
+    <h1>Menghitung kurs mata uang</h1>
+    <label for="Nilai Awal"></label>
+    <input type="number" id="valutal" onchange="convert()">
+    <select id="nilaiTukar" onchange="convert()">
+        <option value="0">-- Pilih Mata Uang --</option>
+        <option value="toRp">ke Rupiah</option>
+        <option value="toDollar">ke Dollar</option>
+    </select>
+    <label for="">Nilai Akhir</label>
+    <input type="number" id="valuta2" readonly>
+</body>
+</html>
